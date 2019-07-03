@@ -1,0 +1,20 @@
+<div *ngIf="event" class="card">
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">
+      {{event.name}}
+    </h5>
+    <p class="card-text">
+      <span class="text-muted">Date : </span>
+      <span class="text-main">{{event.date}}</span> <br>
+      <span class="text-muted">Seats Available : </span>
+        <span class="text-main">{{event.seat_availability}}</span>
+    </p>
+    <button *ngIf="event.seat_availability>0" class="btn btn-sm btn-outline-primary" (click)="onBookEvent()" >Book Now</button>
+    <button *ngIf="!event.seat_availability>0" class="btn btn-sm btn-outline-danger" >Sold Out</button>
+  </div>
+</div>
+
+<p *ngIf="!event" class="alert text-center alert-primary">
+  No Results Found
+</p>

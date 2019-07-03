@@ -1,0 +1,44 @@
+[
+    {
+        "uid":1,
+        "name":"Event 1",
+        "img_url":"https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+        "data":"23 December 2019",
+        "seat_availability":234
+    },
+    {
+        "uid":2,
+        "name":"Event 2",
+        "img_url":"https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+        "data":"27 January 2019",
+        "seat_availability":340
+    },
+    {
+        "uid":3,
+        "name":"Event 3",
+        "img_url":"https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+        "data":"3 December 2019",
+        "seat_availability":76
+    },
+    {
+        "uid":4,
+        "name":"Event 4",
+        "img_url":"https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+        "data":"15 May 2019",
+        "seat_availability":133
+    },
+    {
+        "uid":5,
+        "name":"Event 5",
+        "img_url":"https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+        "data":"23 December 2019",
+        "seat_availability":13
+    },
+    {
+        "uid":6,
+        "name":"Event 6",
+        "img_url":"https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+        "data":"21 August 2020",
+        "seat_availability":410
+    }
+]

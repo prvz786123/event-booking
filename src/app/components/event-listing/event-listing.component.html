@@ -1,0 +1,22 @@
+<div class="row">
+  <input type="text" class="form-control col-sm-6 text-center mx-auto" name="filter_value" [(ngModel)]="filterValue" placeholder="Search Events">
+</div>
+<hr>
+<div class="row">
+  <div *ngFor="let event of events | filter:filterValue" class="col-sm-3 my-2" [ngClass]="{'mx-auto':event===false?true:false}">
+    <app-event-listing-block [event]="event">
+      </app-event-listing-block>
+    </div>
+  <!-- <div class="col-sm-3 my-2">
+    <app-event-listing-block>
+    </app-event-listing-block>
+  </div>
+  <div class="col-sm-3 my-2">
+    <app-event-listing-block>
+    </app-event-listing-block>
+  </div>
+  <div class="col-sm-3 my-2">
+    <app-event-listing-block>
+    </app-event-listing-block>
+  </div> -->
+</div>
